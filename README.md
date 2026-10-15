@@ -1,5 +1,7 @@
 # dsh-plugin-session-manager
 
+仓库：<https://github.com/cmsj33071/dsh-plugin-session-manager>
+
 DSH 会话管理插件：给会话行「…」菜单加上**导出备份**、**归档**、**彻底删除**三项能力，并在宿主侧自带一套安全门与回收站。提供三件事：
 
 | 能力 | 性质 | 入口 |
@@ -24,7 +26,7 @@ $node = "$resource\runtime\primary-runtime\dependencies\node\bin\node.exe"
 $pnpm = "$resource\runtime\pnpm\bin\pnpm.cjs"
 
 # 从 GitHub 装（公开仓库）
-& $node $pnpm --dir "$dsHome\profiles\desktop" add "github:<OWNER>/dsh-plugin-session-manager"
+& $node $pnpm --dir "$dsHome\profiles\desktop" add "github:cmsj33071/dsh-plugin-session-manager"
 # 或从本地源码目录装
 & $node $pnpm --dir "$dsHome\profiles\desktop" add "file:<本目录的绝对路径>"
 ```
@@ -194,7 +196,7 @@ $resource = "C:\Users\33071\AppData\Local\Programs\DeepSeek Harness\resources"  
 $node = "$resource\runtime\primary-runtime\dependencies\node\bin\node.exe"
 $pnpm = "$resource\runtime\pnpm\bin\pnpm.cjs"
 & $node $pnpm --dir "$dsHome\profiles\desktop" add "file:<本目录绝对路径>"
-# GitHub 上装：& $node $pnpm --dir "$dsHome\profiles\desktop" add "github:<OWNER>/dsh-plugin-session-manager"
+# GitHub 上装：& $node $pnpm --dir "$dsHome\profiles\desktop" add "github:cmsj33071/dsh-plugin-session-manager"
 ```
 
 ```jsonc
