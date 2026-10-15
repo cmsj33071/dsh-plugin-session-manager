@@ -1,0 +1,17 @@
+# Nothing in this package is generated; the client bundle is committed on purpose.
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Editors and OS noise.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch: exports, trash copies, and ad-hoc diagnostics.
+exports/
+trash/
+*.local.json
